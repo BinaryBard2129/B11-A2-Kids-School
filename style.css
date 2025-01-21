@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    margin-right: 100px;
+}
+.nav-class{
+    display: flex;
+    gap: 40px;
+}
+.nav-class> li{
+    list-style: none;
+    margin: 0;
+}
+.nav-title{
+    display: flex;
+    gap: 7px;
+    margin-left: 38px;
+}
+.nav-link> a{
+    text-decoration: none;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.title{
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-link{
+    width: 57px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.home{
+    color: orange;
+}
+.about{
+ color: skyblue;
+}
+.faci{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+ .fa-bars {
+    visibility: hidden;
+}
+.btnp{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(254, 163, 1);
+    color: white;
+    border-radius: 12px;
+    font-size: 1.25rem;
+font-weight: 600;
+border: none;
+margin-right: 28px;
+}
+.banner-title{
+   width: 640px; 
+   height: 183px;
+   font-weight: bold;
+   font-size: 3.5rem;
+}
+.ytitle{
+    color: orange;
+}
+.btitle{
+    color: skyblue;
+}
+.banner-description{
+    width: 640px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.btnp-b{
+    width: 197px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.banner-head{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-captain{
+    margin-left: 48px;
+    margin-top:  100px;
+}
+.banner-image{
+  margin-right:  65px;
+  margin-bottom: 20px;
+}
