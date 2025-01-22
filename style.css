@@ -116,8 +116,283 @@ display: inline-block;
   margin-right:  65px;
   margin-bottom: 20px;
 }
+.mojito{
+    width: 367.8px;
+    height: 476.78px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border-radius: 18.86px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.btnp-blue{
+    color: rgb(100, 200, 255);
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.cappuccino{
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+width: 367.8px;
+height: 481.5px;
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+.btnp-yellow{
+    color: rgb(240, 170, 0);
+    font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.robusta{
+    border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+width: 367.8px;
+height: 476.78px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+.btnp-purple{
+    color: #8700FF;
+    font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+section{
+    background-image: url(assets/bg.png);
+}
+.main-title{
+width: 460.61px;
+height: 57.5px;
+/* font-size: 2.w875rem; */
+/* font-weight: 700; */
+margin-top: 100px;
+margin-left: 570px;
+/* text-align: center; */
+/* background-image: url(assets/bg.png); */
+font-weight: bold;
+font-size: 1.7rem;
+}
+.main{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 30px;
+    margin-top: 70px;
+    /* background-image: url(assets/bg.png); */
+}
+.arrow-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;  
+    margin-top:  70px;
+}
+.fa-arrow-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    font-size: 60px;
+    font-weight: 900;
+}
+.fa-arrow-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    font-size: 60px;
+    font-weight: 900;
+}
+.circle {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    /* wid4h: 60px; */
+    /* height: 60px; */
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+}
+.rengoku{
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: auto; 
+    position: relative;
+}
+.image1{
+    background: rgb(255, 255, 255);
+    border-radius:  16px 16px 0px 0px;
+    width: 540px;
+height: 337px;
+}
+.hadudu{
+    background: linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%), url(assets/bg.png); 
+     background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+.master-hashira{
+    display: grid;
+    grid-template-columns: 1fr 1fr 15fr; 
+    grid-template-rows: repeat(2, auto); 
+    gap: 30px; 
+    padding: 20px; 
+    /* text-align: center; */
+    margin-left: 130px;
 
+}
+.goku{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.shinigami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.tanjiro:nth-child(2) {
+    grid-row: 1; 
+    grid-column: 2; 
+}
 
+.tanjiro:nth-child(3) {
+    grid-row: 2; 
+    grid-column: 2; 
+}
+
+.tanjiro:nth-child(4) {
+    grid-row: 1; 
+    grid-column: 3; 
+}
+
+.tanjiro:nth-child(5) {
+    grid-row: 2; 
+    grid-column: 3; 
+}
+
+#box-1{
+    grid-row: span 2; 
+    grid-column: 1 / 2;
+}
+.btnp-naruto{
+width: 174.51px;
+height: 47.93px;
+left: 38.35px;
+top: 314.14px;
+background-color: rgb(60, 216, 232);
+color: white;
+font-size: 15.34px;
+font-weight: 500;
+border-radius: 47.93px;
+border: none;
+position: absolute; 
+    top: 280px; 
+    left: 30px; 
+    transform: translateY(70%);
+}
+.hashiras {
+    margin-top: 50px; 
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 30px;
+}
+.hashira-p {
+    margin-top: 30px; 
+    line-height: 1.8; 
+    margin-left: 30px; 
+    text-align: left;
+}
+.tanjiro{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+position: relative;
+}
+.image2, .image3, .image4, .image5{
+    position: relative;
+width: 291px;
+height: 177px;
+    border-radius: 16px 16px 0px 0px;
+background: url(),rgb(255, 255, 255);
+}
+.btnp-green{
+    width: 174.51px;
+height: 47.93px;
+left: 38.35px;
+top: 314.14px;
+background-color: rgb(149, 178, 38);
+color: white;
+font-size: 15.34px;
+font-weight: 500;
+border-radius: 47.93px;
+border: none;
+position: absolute; 
+    top: 150px; 
+    left: 30px; 
+    /* transform: translateY(70%); */
+}
+.btnp-beguni{
+    width: 174.51px;
+height: 47.93px;
+left: 38.35px;
+top: 314.14px;
+background-color: rgb(93, 88, 240);
+color: white;
+font-size: 15.34px;
+font-weight: 500;
+border-radius: 47.93px;
+border: none;
+position: absolute; 
+    top: 150px; 
+    left: 30px; 
+}
+.hashiras-lite{
+    margin-top: 30px; 
+    line-height: 1.8; 
+    margin-left: 10px; 
+    text-align: left;
+}
 @media screen and (max-width:576px){
     .nav-bar{
        display: none;
@@ -166,7 +441,6 @@ display: inline-block;
     .btnp-b{
         font-size: 1.2rem;
         margin-top: 65px;
-        /* margin-right: 30px; */
     }
     .banner-captain{
         margin-bottom: 40px;
@@ -181,5 +455,44 @@ display: inline-block;
         align-items: center;
         display: flex;
     }
-    
+    .main{
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .main-title {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        text-align: center; 
+        width: 100%; 
+        margin: 0; 
+    }
+.main-title h1 {
+        font-size: 1.5rem; 
+        line-height: 1.2; 
+        word-wrap: break-word; 
+    }
+.arrow-container{
+    display: none;
+}
+.master-hashira {
+    display: block;
+}
+.rengoku {
+    display: none; 
+}
+.tanjiro {
+    width: 98%;
+    margin-bottom: 20px; 
+    margin-left: -70px;
+}
+.shinigami {
+    text-align: center; 
+    margin-top: 2px;
+    margin-left: -30px;
+}
+
 }
