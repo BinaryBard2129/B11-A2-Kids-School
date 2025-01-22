@@ -289,6 +289,18 @@ height: 337px;
     align-items: center;
     margin-top: 50px;
 }
+.btnp-bb{
+    width: 197px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
 .tanjiro:nth-child(2) {
     grid-row: 1; 
     grid-column: 2; 
@@ -392,6 +404,31 @@ position: absolute;
     line-height: 1.8; 
     margin-left: 10px; 
     text-align: left;
+}
+footer{
+    background-color: #01ACFD;
+    /* position: absolute; */
+width: 1505px;
+height: 519px;
+top: 2480px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* margin-top: 30px; */
+}
+.one-piece{
+    text-decoration: none;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 90px;
+}
+.center{
+    margin-top: 90px;
 }
 @media screen and (max-width:576px){
     .nav-bar{
